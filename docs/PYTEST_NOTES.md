@@ -20,8 +20,8 @@ Objectives
 TDD
 ----
 - Write (failing) test
- - desired new feature or function
- - recreate known failure  
+  - desired new feature or function
+  - recreate known failure  
 - Develop code to pass test
 - Repeat
  
@@ -48,6 +48,8 @@ add pytest to install_requires in setup.py
 
 Source Structure
 ----------------
+https://github.com/rstms/pytest-template
+
 Autodiscovery:
   test sources matching `test_*.py` containing functions starting with `test_*()`
   or `class Test*()` containing methods starting with `test_*(self)`
